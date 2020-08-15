@@ -3,9 +3,5 @@
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/usr/src/app",
-	"shutdownAction": "stopCompose",
-	"extensions": [
-		"rebornix.Ruby",
-		"castwide.solargraph"
-	]
+	"shutdownAction": "stopCompose"
 }

@@ -3,7 +3,7 @@ FROM ruby:2.5
 EXPOSE 3000
 WORKDIR /usr/src/app
 
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update -qq && apt-get install -y nodejs
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/
